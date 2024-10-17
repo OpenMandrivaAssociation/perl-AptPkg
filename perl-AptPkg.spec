@@ -6,7 +6,7 @@ Release: %mkrel 1
 Summary: Perl interface to libapt-pkg
 License: GPL
 Group: Development/Perl
-URL: http://packages.debian.org/unstable/perl/libapt-pkg-perl
+URL: https://packages.debian.org/unstable/perl/libapt-pkg-perl
 Source: libapt-pkg-perl_%{version}.tar.gz
 Source1: etc-apt.tgz
 BuildRequires: gcc-c++ perl-devel apt-mdv-devel
