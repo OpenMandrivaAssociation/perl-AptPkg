@@ -9,6 +9,7 @@ Group: Development/Perl
 URL: https://packages.debian.org/unstable/perl/libapt-pkg-perl
 Source: libapt-pkg-perl_%{version}.tar.gz
 Source1: etc-apt.tgz
+BuildRequires:	make
 BuildRequires: gcc-c++ perl-devel apt-mdv-devel
 
 %description
